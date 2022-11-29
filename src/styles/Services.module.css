@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.conatiner img {
+  width: 50%;
+}
+
+.services {
+  width: 40%;
+}
+
+.services h2 {
+  font-size: 2rem;
+}
+
+.services p {
+  font-size: 0.8rem;
+}
+
+.services ul {
+  padding: 0;
+}
+
+.services li {
+  list-style: url("../Assets/Vector.svg");
+  list-style-position: inside;
+  margin-bottom: 1em;
+}
