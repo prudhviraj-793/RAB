@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navContainer {
+  display: flex;
+  padding: 0;
+}
+
+.navContainer a {
+  color: #4f5665;
+  margin-right: 1em;
+  font-size: 0.8em;
+  line-height: 0.5em;
+}
+
+.buttonConatiner a {
+  margin-right: 1em;
+  font-size: 0.8em;
+  text-decoration: none;
+  color: #0b132a;
+}
+
+.buttonConatiner button {
+  padding: 0.6em;
+  width: 7.5em;
+  font-size: 0.8em;
+  border-radius: 1.5em;
+  border-color: #f53855;
+  background-color: white;
+  color: #f53855;
+  margin-right: 1em;
+}
