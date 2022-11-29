@@ -1,0 +1,52 @@
+.container {
+  margin: 2em;
+}
+
+.title {
+  width: 55%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.plansContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.plan {
+  margin-top: 1em;
+  padding: 2em;
+  border: 2px solid #dddddd;
+  border-radius: 0.5em;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.plan ul {
+  padding: 0;
+}
+
+.plan img {
+  width: 50%;
+  max-width: 100%;
+}
+
+.plan li {
+  list-style: url("../Assets/tick.svg");
+  font-size: 0.8rem;
+  text-align: left;
+  margin-bottom: 1em;
+  list-style-position: inside;
+}
+
+.plan button {
+  padding: 0.5em 2em;
+  border-radius: 1.5em;
+  color: #f53838;
+  border-color: #f53838;
+  background-color: white;
+  margin-bottom: 0.5em;
+}
