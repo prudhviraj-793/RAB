@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  padding: 3em;
+  justify-content: space-between;
+  font-size: 0.5rem;
+}
+
+.subContainer_1 {
+  width: 30%;
+}
+
+.subContainer_2 {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.subContainer_2 nav {
+  text-align: center;
+  width: 30%;
+}
+
+.subContainer_2 ul {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.subContainer_2 li {
+  margin: 1em 0;
+}
+
+.social img {
+  margin-right: 0.5em;
+}
+
+.social p {
+  color: #afb5c0;
+}
