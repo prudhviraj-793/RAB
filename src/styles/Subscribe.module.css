@@ -1,0 +1,21 @@
+.container {
+  width: 80%;
+  background-color: #ffffff;
+  margin: 1em auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content {
+  width: 40%;
+  justify-self: center;
+}
+
+.subBtn button {
+  color: #ffffff;
+  padding: 0.5em 2em;
+  background-color: #f53838;
+  border: #f53838;
+  border-radius: 0.3em;
+}
